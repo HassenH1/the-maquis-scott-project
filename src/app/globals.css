@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* set as root elements */
+html {
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  height: 100%;
+
+}
+
+/* use viewport-relative units to cover page fully */
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+/* full-sized  container that fills up the page */
+/* div {
+  height: 100%;
+  width: 100%;
+
+  padding: 10px;
+  font-size: 20px;
+} */
+
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +57,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
