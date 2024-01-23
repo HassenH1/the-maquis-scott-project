@@ -33,7 +33,7 @@ function IntroductionHero() {
           alt="Maquis Scott photography"
           sizes="100vw"
         />
-        <span className="absolute translate-y-1/2 top-1/2 -right-[115px] sm:-right-36 transform -rotate-90 text-xs sm:text-sm -z-40">
+        <span className="absolute translate-y-1/2 top-1/2 -right-[118px] sm:-right-36 transform -rotate-90 text-xs sm:text-sm -z-40">
           <strong>ALL IMAGES</strong> &copy; 2023 <strong>MAQUIS SCOTT</strong>
         </span>
       </div>
