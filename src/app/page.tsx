@@ -10,7 +10,7 @@ export default function Home() {
       <IntroductionHero />
 
       {/* <!-- Footer --> */}
-      <footer className="text-center p-4">
+      <footer className="text-center pt-4 pb-2">
         <p className="md:text-sm text-xs">
           <strong>ALL RIGHTS RESERVED</strong> &copy; 2013 - 2023{" "}
           <strong>STUDIO EXIT LLC</strong>
