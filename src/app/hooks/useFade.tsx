@@ -14,7 +14,10 @@ const useFade = (initial: boolean = false) => {
     if (!show) setVisible(false);
   };
 
-  const style = { animation: `${show ? "fadeIn" : "fadeOut"} 3s ease-out 1s` };
+  const style = {
+    animation: `${show ? "fadeIn" : "fadeOut"} 4s ease-out 1s`,
+  };
+  // const style = { animation: `${show ? "fadeIn" : "fadeOut"} 3s ease-out 1s` };
   // const style = { animation: `${show ? "fadeIn" : "fadeOut"} .3s` };
 
   // These props go on the fading DOM element

@@ -14,11 +14,10 @@ function SwiperSlider() {
         delay: 2500,
         disableOnInteraction: false,
       }}
-      speed={3000}
+      speed={800}
       loop
       modules={[Autoplay]}
       className="w-full h-full"
-      // className="w-full h-full swiper--eager"
     >
       <SwiperSlide>
         <Image
@@ -69,6 +68,17 @@ function SwiperSlider() {
           height={0}
           width={0}
           className="w-full h-full object-cover object-center block"
+          src="/5.jpg"
+          alt="Maquis Scott photography"
+          sizes="100vw"
+          priority
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          height={0}
+          width={0}
+          className="w-full h-full object-cover object-center block"
           src="/6.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
@@ -92,6 +102,17 @@ function SwiperSlider() {
           width={0}
           className="w-full h-full object-cover object-center block"
           src="/8.jpg"
+          alt="Maquis Scott photography"
+          sizes="100vw"
+          priority
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image
+          height={0}
+          width={0}
+          className="w-full h-full object-cover object-center block"
+          src="/9.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
           priority
