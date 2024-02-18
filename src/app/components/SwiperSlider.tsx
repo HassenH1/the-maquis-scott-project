@@ -68,17 +68,6 @@ function SwiperSlider() {
           height={0}
           width={0}
           className="w-full h-full object-cover object-center block"
-          src="/5.jpg"
-          alt="Maquis Scott photography"
-          sizes="100vw"
-          priority
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image
-          height={0}
-          width={0}
-          className="w-full h-full object-cover object-center block"
           src="/6.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
@@ -102,28 +91,6 @@ function SwiperSlider() {
           width={0}
           className="w-full h-full object-cover object-center block"
           src="/8.jpg"
-          alt="Maquis Scott photography"
-          sizes="100vw"
-          priority
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image
-          height={0}
-          width={0}
-          className="w-full h-full object-cover object-center block"
-          src="/9.jpg"
-          alt="Maquis Scott photography"
-          sizes="100vw"
-          priority
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image
-          height={0}
-          width={0}
-          className="w-full h-full object-cover object-center block"
-          src="/10.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
           priority
