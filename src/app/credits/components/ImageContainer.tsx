@@ -33,7 +33,8 @@ function ImageContainer() {
             delay: 1000,
             disableOnInteraction: false,
           }}
-          modules={[Autoplay, EffectFade, Pagination]}
+          modules={[Autoplay, Pagination]}
+          // modules={[Autoplay, EffectFade, Pagination]}
           className="mySwiper w-full h-full opacity[0.7]"
         >
           <SwiperSlide>
@@ -92,7 +93,7 @@ function ImageContainer() {
               height={0}
               width={0}
               className="w-full h-full object-cover object-center block"
-              src="/STOWE.jpg"
+              src="/FRANK_STOWE.jpg"
               alt="Maquis Scott photography"
               sizes="100vw"
             />

@@ -22,7 +22,10 @@ export default function Home() {
       {isVisible ? (
         <>
           <header className="p-4" />
-          <main className="flex-1 flex p-4 justify-center items-center">
+          <main
+            className="flex-1 flex p-4 justify-center items-center"
+            style={{ animation: "fadeIn 3s ease-in" }}
+          >
             <Box>
               <SwiperSlider />
               <span className="absolute translate-y-1/2 top-1/2 -right-[100px] sm:-right-36 transform -rotate-90 text-[10px] sm:text-sm -z-40">
