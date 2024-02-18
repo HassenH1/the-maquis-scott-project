@@ -11,13 +11,14 @@ function SwiperSlider() {
       centeredSlides
       scrollbar={{ draggable: true }}
       autoplay={{
-        delay: 1000,
+        delay: 2500,
         disableOnInteraction: false,
       }}
       speed={3000}
       loop
       modules={[Autoplay]}
       className="w-full h-full"
+      // className="w-full h-full swiper--eager"
     >
       <SwiperSlide>
         <Image

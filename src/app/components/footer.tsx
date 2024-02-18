@@ -8,7 +8,7 @@ function Footer() {
 
   return (
     <footer className="md:flex">
-      <div className="md:inline-block md:w-2/5 md:text-center border-2">
+      <div className="md:inline-block md:w-2/5 md:text-center">
         <Link className="text-xs font-bold md:mr-32 ml-7" href="/credits">
           credits
         </Link>
