@@ -38,6 +38,7 @@ function SwiperSlider() {
           src="/2.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -48,6 +49,7 @@ function SwiperSlider() {
           src="/3.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -58,6 +60,7 @@ function SwiperSlider() {
           src="/4.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -68,6 +71,7 @@ function SwiperSlider() {
           src="/5.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -78,6 +82,7 @@ function SwiperSlider() {
           src="/6.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -88,6 +93,7 @@ function SwiperSlider() {
           src="/7.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -98,6 +104,7 @@ function SwiperSlider() {
           src="/8.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -108,6 +115,7 @@ function SwiperSlider() {
           src="/9.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -118,6 +126,7 @@ function SwiperSlider() {
           src="/10.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -128,6 +137,7 @@ function SwiperSlider() {
           src="/11.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -138,6 +148,7 @@ function SwiperSlider() {
           src="/12.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
       <SwiperSlide>
@@ -148,6 +159,7 @@ function SwiperSlider() {
           src="/13.jpg"
           alt="Maquis Scott photography"
           sizes="100vw"
+          priority
         />
       </SwiperSlide>
     </Swiper>
