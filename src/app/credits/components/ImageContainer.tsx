@@ -30,7 +30,7 @@ function ImageContainer() {
           onActiveIndexChange={updateIndex}
           effect={"fade"}
           autoplay={{
-            delay: 2500,
+            delay: 1000,
             disableOnInteraction: false,
           }}
           modules={[Autoplay, EffectFade, Pagination]}
