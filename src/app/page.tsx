@@ -1,24 +1,18 @@
-import IntroductionHero from "./components/IntroductionHero";
-import Footer from "./components/footer";
+import SwiperSlider from "./components/SwiperSlider";
+import Box from "./components/box";
 
 export default function Home() {
   const year = new Date().getFullYear();
+
   return (
-    <>
-      {/* <!-- Header --> */}
-      <header className="p-4" />
-
-      {/* <!-- Main Content --> */}
-      <IntroductionHero />
-
-      {/* <!-- Footer --> */}
-      {/* <footer className="text-center pt-4 pb-2">
-        <p className="md:text-sm text-xs">
-          <strong>ALL RIGHTS RESERVED</strong> &copy; 2013 - {year}{" "}
-          <strong>STUDIO EXIT LLC</strong>
-        </p>
-      </footer> */}
-      <Footer />
-    </>
+    <main className="flex-1 flex p-4 justify-center items-center">
+      <Box>
+        <SwiperSlider />
+        <span className="absolute translate-y-1/2 top-2/3 -right-[100px] sm:-right-36 transform -rotate-90 text-[10px] sm:text-sm -z-40">
+          <strong>ALL IMAGES</strong> &copy; {year}{" "}
+          <strong>MAQUIS SCOTT</strong>
+        </span>
+      </Box>
+    </main>
   );
 }
