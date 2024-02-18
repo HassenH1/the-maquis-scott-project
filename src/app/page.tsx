@@ -36,7 +36,7 @@ export default function Home() {
       ) : (
         <div className="w-full h-full" {...fadeProps}>
           <Image
-            src="/LANDING LOGO.jpg"
+            src="/LANDING_LOGO.jpg"
             height={0}
             width={0}
             className="w-full h-full object-cover object-center block"
