@@ -33,8 +33,8 @@ function ImageContainer() {
             delay: 1000,
             disableOnInteraction: false,
           }}
-          modules={[Autoplay, Pagination]}
-          // modules={[Autoplay, EffectFade, Pagination]}
+          // modules={[Autoplay, Pagination]}
+          modules={[Autoplay, EffectFade, Pagination]}
           className="mySwiper w-full h-full opacity[0.7]"
         >
           <SwiperSlide>
