@@ -30,10 +30,10 @@ function ImageContainer() {
           onActiveIndexChange={updateIndex}
           effect={"fade"}
           autoplay={{
-            delay: 1000,
+            delay: 500,
             disableOnInteraction: false,
           }}
-          // modules={[Autoplay, Pagination]}
+          speed={500}
           modules={[Autoplay, EffectFade, Pagination]}
           className="mySwiper w-full h-full opacity[0.7]"
         >
