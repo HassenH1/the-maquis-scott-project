@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
-import Image from "next/image";
 import SwiperSlider from "./components/SwiperSlider";
 import Box from "./components/box";
 import Footer from "./components/footer";
@@ -38,14 +38,10 @@ export default function Home() {
         </>
       ) : (
         <div className="w-full h-full" {...fadeProps}>
-          <Image
+          <img
             src="/LANDING_LOGO.jpg"
-            height={0}
-            width={0}
             className="w-full h-full object-cover object-center block"
             alt="Maquis Scott photography"
-            sizes="100vw"
-            priority
           />
         </div>
       )}
