@@ -36,6 +36,7 @@ function ImageContainer() {
             delay: 500,
             disableOnInteraction: false,
           }}
+          loop
           speed={500}
           modules={[Autoplay, EffectFade, Pagination]}
           className="mySwiper w-full h-full opacity[0.7]"
