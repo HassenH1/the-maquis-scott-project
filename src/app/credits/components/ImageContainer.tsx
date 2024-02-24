@@ -20,7 +20,7 @@ function ImageContainer() {
 
   const updateIndex = (swiperInstance: SwiperType) => {
     if (swiperInstance === null) return;
-    const currentSlide = swiperInstance?.activeIndex;
+    const currentSlide = swiperInstance?.realIndex;
 
     setCurrentIndex(currentSlide);
   };
