@@ -10,9 +10,11 @@ export default function Home() {
   const year = new Date().getFullYear();
 
   useEffect(() => {
-    setTimeout(() => {
-      setVisible(true);
-    }, 2500);
+    if (document.readyState === "complete") {
+      setTimeout(() => {
+        setVisible(true);
+      }, 2500);
+    }
   }, []);
 
   return (
