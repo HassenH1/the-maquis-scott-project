@@ -15,7 +15,7 @@ function SwiperSlider() {
         delay: 2500,
         disableOnInteraction: false,
       }}
-      speed={800}
+      speed={1000}
       loop
       modules={[Autoplay]}
       className="w-full h-full"
