@@ -19,7 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} flex flex-col relative min-h-screen`}>
-        {/* <body className={`${inter.className} bg-gray-100 flex flex-col h-screen`}> */}
         <header className="p-4" />
         <Splashscreen />
         {children}
