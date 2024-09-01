@@ -34,6 +34,7 @@ function SlideShow() {
           slidesPerView: 3,
         }
       }}
+      lazyPreloadPrevNext={4}
     >
       {
         section2Images.map((image, idx) => (

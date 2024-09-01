@@ -22,6 +22,7 @@ function SwiperSlider() {
       loop
       modules={[Autoplay]}
       className="w-full h-full"
+      lazyPreloadPrevNext={2}
     >
       {images.map((image, idx) => {
         return (
