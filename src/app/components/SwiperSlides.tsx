@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { images } from "../../../lib/images";
 
-function SwiperSlider() {
+function SwiperSlides() {
   return (
     <Swiper
       centeredSlides
@@ -43,4 +43,4 @@ function SwiperSlider() {
   );
 }
 
-export default SwiperSlider;
+export default SwiperSlides;

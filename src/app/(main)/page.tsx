@@ -1,7 +1,6 @@
 import dynamic from "next/dynamic";
 import Box from "../components/box";
-// import SlideShow from "../components/slideShow";
-import SwiperSlider from "../components/swiperSlider";
+import SwiperSlides from "../components/SwiperSlides";
 const SlideShow = dynamic(() => import('../components/slideShow'), { ssr: false })
 
 export default function Home() {
@@ -12,7 +11,8 @@ export default function Home() {
       <section id="top" className="h-screen flex flex-col justify-center">
         <div className="flex-1 flex flex-col justify-center items-center">
           <Box>
-            <SwiperSlider />
+            {/* <SwiperSlider */}
+            <SwiperSlides />
             <span className="absolute translate-y-1/2 top-1/2 -right-[100px] sm:-right-36 transform -rotate-90 text-[10px] sm:text-sm -z-40">
               <strong>ALL IMAGES</strong> &copy; {year}{" "}
               <strong>MAQUIS SCOTT</strong>
