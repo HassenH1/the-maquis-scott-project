@@ -8,6 +8,7 @@ import { section2Images } from '../../../lib/images';
 import Image from "next/image";
 
 function SlideShow() {
+
   return (
     <Swiper
       loop
