@@ -17,18 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* <Splashscreen /> */}
         <div className="mx-auto flex flex-col relative">
           {children}
           <Footer />
         </div>
-        {/* <Layout>
-          {children}
-        </Layout> */}
-        {/* <header className="p-4" /> */}
-        {/* <Splashscreen />
-        {children}
-        <Footer /> */}
       </body>
     </html>
   );
