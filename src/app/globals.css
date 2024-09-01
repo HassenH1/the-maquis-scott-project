@@ -20,13 +20,18 @@ dd {
     padding: 0;
 }
 
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, sans-serif;
   box-sizing: border-box;
   line-height: 1.6;
   color: black;
-  /* color: #333; */
   font-size: 16px;
+  min-height: 100dvh;
 }
 
 p {
