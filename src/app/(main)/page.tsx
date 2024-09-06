@@ -20,7 +20,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex-2 container mx-auto pb-9">
-          <a href="#more" className="transition-all duration-300 ease-in-out no-underline text-sm hover:line-through">MORE</a>
+          <a href="#more" className="transition-all duration-300 ease-in-out no-underline text-sm hover:line-through ml-4">MORE</a>
         </div>
       </section>
       <section id="more" className="h-screen">
