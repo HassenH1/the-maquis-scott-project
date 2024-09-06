@@ -13,13 +13,13 @@ function SlideShow() {
     <Swiper
       loop
       modules={[Autoplay]}
-      speed={1500}
+      // speed={1500}
       className="w-auto h-[90%]"
       scrollbar={{ draggable: true }}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
+      // autoplay={{
+      //   delay: 2500,
+      //   disableOnInteraction: false,
+      // }}
       breakpoints={{
         // when window width is >= 320px
         320: {
@@ -42,7 +42,7 @@ function SlideShow() {
             <Image
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              sizes="100vw"
+              sizes="100%"
               priority
               src={image}
               alt="Maquis Scott photography"

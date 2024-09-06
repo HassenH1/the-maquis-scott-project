@@ -28,7 +28,7 @@ function SwiperSlides() {
             <Image
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              sizes="100vw"
+              sizes="100%"
               priority
               src={image}
               alt="Maquis Scott photography"
