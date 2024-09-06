@@ -5,7 +5,6 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { images } from "../../../lib/images";
-import Splashscreen from "./splashscreen";
 
 function SwiperSlides() {
   return (
@@ -28,7 +27,9 @@ function SwiperSlides() {
             <Image
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              sizes="100%"
+              sizes="20vw"
+              // sizes="20%"
+              // sizes="100%"
               priority
               src={image}
               alt="Maquis Scott photography"
