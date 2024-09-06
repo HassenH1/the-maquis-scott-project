@@ -10,7 +10,7 @@ function Splashscreen() {
     <main className="w-full h-full absolute z-50 mix-blend-difference text-white">
       <div className="w-full md:w-3/4 h-full">
         <div className="flex justify-center h-full flex-col font-extrabold md:ml-10 ml-0">
-          <p className="text-base ml-32">visual language by...</p>
+          <p className="text-base ml-32">visual language by</p>
           <br />
           <br />
           <br />
