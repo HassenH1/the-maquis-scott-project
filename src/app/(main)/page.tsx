@@ -1,7 +1,8 @@
 import dynamic from "next/dynamic";
 import SwiperSlides from "../components/SwiperSlides";
 import Splashscreen from "../components/splashscreen";
-const SlideShow = dynamic(() => import('../components/slideShow'), { ssr: false })
+const SlideShow = dynamic(() => import('../components/slideShow'))
+// const SlideShow = dynamic(() => import('../components/slideShow'), { ssr: false })
 
 export default function Home() {
   const year = new Date().getFullYear();
