@@ -37,12 +37,3 @@ body {
 p {
   font-size: 1.6vw; /* Example: 1.6% of the viewport width */
 }
-
-@keyframes fadeOut {
-  0% { 
-    opacity: 1;
-  }
-  100% { 
-    opacity: 0; 
-  }
-}
