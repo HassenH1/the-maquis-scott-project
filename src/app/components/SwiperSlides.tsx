@@ -27,7 +27,7 @@ function SwiperSlides() {
             <Image
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              sizes="20vw"
+              sizes="60vw"
               // sizes="20%"
               // sizes="100%"
               priority
