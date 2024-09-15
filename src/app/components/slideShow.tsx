@@ -35,7 +35,7 @@ function SlideShow() {
             <Image
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              sizes="20vw"
+              sizes="70vw"
               // sizes="20%"
               priority
               src={image}
