@@ -20,8 +20,7 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="flex container mx-auto pb-9 sm:h-28 md:h-0">
-          {/* <div className="flex container mx-auto pb-9 h-24"> */}
+        <div className="flex container mx-auto pb-9 sm:h-28 md:h-0 lg:h-0">
           <a href="#more" className="transition-all duration-300 ease-in-out no-underline text-xs lg:text-sm hover:line-through ml-4">MORE</a>
         </div>
       </section>

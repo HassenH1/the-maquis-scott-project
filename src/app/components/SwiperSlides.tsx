@@ -34,6 +34,7 @@ function SwiperSlides() {
               src={image}
               alt="Maquis Scott photography"
               placeholder="blur"
+              fetchPriority="high"
             />
           </SwiperSlide>
         );
