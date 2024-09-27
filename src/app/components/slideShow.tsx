@@ -33,11 +33,10 @@ function SlideShow() {
         section2Images.map((image, idx) => (
           <SwiperSlide key={idx}>
             <Image
+              loading='lazy'
               fill
               style={{ objectFit: "cover", objectPosition: "center" }}
-              sizes="70vw"
-              // sizes="20%"
-              priority
+              sizes="70w"
               src={image}
               alt="Maquis Scott photography"
               placeholder="blur"
