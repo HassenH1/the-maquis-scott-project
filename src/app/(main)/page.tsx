@@ -2,7 +2,6 @@ import dynamic from "next/dynamic";
 import SwiperSlides from "../components/SwiperSlides";
 import Splashscreen from "../components/splashscreen";
 const SlideShow = dynamic(() => import('../components/slideShow'))
-// const SlideShow = dynamic(() => import('../components/slideShow'), { ssr: false })
 
 export default function Home() {
   const year = new Date().getFullYear();
@@ -20,8 +19,9 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="flex container mx-auto pb-9 h-24">
-          <a href="#more" className="transition-all duration-300 ease-in-out no-underline text-sm hover:line-through ml-4">MORE</a>
+        <div className="flex container mx-auto pb-9 sm:h-28 md:h-0">
+          {/* <div className="flex container mx-auto pb-9 h-24"> */}
+          <a href="#more" className="transition-all duration-300 ease-in-out no-underline text-xs lg:text-sm hover:line-through ml-4">MORE</a>
         </div>
       </section>
       <section id="more" className="h-screen">
