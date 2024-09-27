@@ -3,6 +3,7 @@ import SwiperSlides from "../components/SwiperSlides";
 import Splashscreen from "../components/splashscreen";
 const SlideShow = dynamic(() => import('../components/slideShow'))
 
+// https://cloudinary.com/tools/jpg-to-webp - for converting images to webp
 export default function Home() {
   const year = new Date().getFullYear();
 
