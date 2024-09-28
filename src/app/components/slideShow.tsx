@@ -11,7 +11,8 @@ function SlideShow() {
   return (
     <Swiper
       loop
-      className="w-auto h-[90%]"
+      className="w-auto h-full"
+      // className="w-auto h-[90%]"
       scrollbar={{ draggable: true }}
       breakpoints={{
         // when window width is >= 320px
@@ -39,7 +40,8 @@ function SlideShow() {
               src={image}
               alt="Maquis Scott photography"
               placeholder="blur"
-              sizes="33.3vw"
+              sizes="50.3vw"
+              // sizes="33.3vw" // this is recommended
               priority
             />
           </SwiperSlide>
