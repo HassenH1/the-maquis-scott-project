@@ -18,8 +18,7 @@ function SwiperSlides() {
       speed={1500}
       loop
       modules={[Autoplay]}
-      className="relative"
-      lazyPreloadPrevNext={2}
+      className="relative h-full w-full"
     >
       {images.map((image, idx) => {
         return (
@@ -27,11 +26,10 @@ function SwiperSlides() {
             <Image
               height={624}
               width={700}
-              priority
               src={image}
               alt="Maquis Scott photography"
               placeholder="blur"
-              className="w-full h-auto object-cover"
+              className="w-full h-full object-cover"
               sizes="(min-width: 800px) 700px, 320px"
             />
           </SwiperSlide>
