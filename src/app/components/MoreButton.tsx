@@ -11,9 +11,9 @@ function MoreButton() {
     });
   }
   return (
-    <div className="flex container mx-auto pb-9 sm:h-28 md:h-0 lg:h-0">
-      <button className="transition-all duration-300 ease-in-out no-underline text-xs lg:text-sm hover:line-through ml-4" onClick={onClick}>MORE</button>
-      {/* <a href="#more" className="transition-all duration-300 ease-in-out no-underline text-xs lg:text-sm hover:line-through ml-4">MORE</a> */}
+    <div className="ml-4">
+      <button className="transition-all duration-300 ease-in-out no-underline text-xs lg:text-sm hover:line-through" onClick={onClick}>MORE</button>
+      {/* <button className="transition-all duration-300 ease-in-out no-underline text-xs lg:text-sm hover:line-through ml-4" onClick={onClick}>MORE</button> */}
     </div>
   )
 }

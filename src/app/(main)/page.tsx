@@ -10,8 +10,8 @@ export default function Home() {
 
   return (
     <>
-      <section id="top" className="h-screen flex flex-col justify-center">
-        <div className="flex-1 flex flex-col justify-center items-center">
+      <section className="h-dvh flex flex-col">
+        <div className="h-full flex flex-col justify-center items-center">
           <div className="md:h-[600px] md:w-[700px] h-[400px] w-[320px] relative">
             <Splashscreen />
             <SwiperSlides />
@@ -23,8 +23,10 @@ export default function Home() {
         </div>
         <MoreButton />
       </section>
-      <section id="more" className="h-screen">
-        <div className="h-full container-sm mx-auto">
+      <section className="h-dvh">
+        {/* <section className="h-screen"> */}
+        <div className="h-full mx-auto">
+          {/* <div className="h-full container-sm mx-auto"> */}
           <SlideShow />
         </div>
       </section>
