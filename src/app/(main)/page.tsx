@@ -1,8 +1,7 @@
-import dynamic from "next/dynamic";
 import SwiperSlides from "../components/SwiperSlides";
 import Splashscreen from "../components/splashscreen";
 import MoreButton from "../components/MoreButton";
-const SlideShow = dynamic(() => import('../components/slideShow'))
+import SlideShow from "../components/slideShow"
 
 // https://cloudinary.com/tools/jpg-to-webp - for converting images to webp
 export default function Home() {
@@ -24,9 +23,7 @@ export default function Home() {
         <MoreButton />
       </section>
       <section className="h-dvh">
-        {/* <section className="h-screen"> */}
         <div className="h-full mx-auto">
-          {/* <div className="h-full container-sm mx-auto"> */}
           <SlideShow />
         </div>
       </section>
