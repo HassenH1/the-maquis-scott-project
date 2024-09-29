@@ -30,7 +30,7 @@ function SwiperSlides() {
               alt="Maquis Scott photography"
               placeholder="blur"
               className="w-full h-full object-cover"
-              sizes="(min-width: 800px) 700px, 320px"
+            // sizes="(min-width: 800px) 700px, 320px"
             />
           </SwiperSlide>
         );

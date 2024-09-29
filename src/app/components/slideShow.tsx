@@ -1,10 +1,10 @@
 'use client'
 
 import React from 'react'
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { section2Images } from '../../../lib/images';
 import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { section2Images } from '../../../lib/images';
+import "swiper/css";
 
 function SlideShow() {
 
@@ -40,7 +40,7 @@ function SlideShow() {
               src={image}
               alt="Maquis Scott photography"
               placeholder="blur"
-              sizes="50.3vw"
+              sizes="80.3vw"
               // sizes="33.3vw" // this is recommended
               priority
             />
