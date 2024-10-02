@@ -5,36 +5,58 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { section2Images } from '../../../lib/images';
 import "swiper/css";
+import { Autoplay } from 'swiper/modules'
 
 function SlideShow() {
 
   return (
     <Swiper
       loop
-      className="w-auto h-full"
-      // className="w-auto h-[90%]"
       scrollbar={{ draggable: true }}
+      // slidesPerView={1}
+      spaceBetween={0}
+      // breakpoints={{
+      //   768: {
+      //     slidesPerView: 2,
+      //     spaceBetween: 0,
+      //   },
+      //   1024: {
+      //     slidesPerView: 2.3,
+      //     spaceBetween: 0,
+      //   },
+      //   1440: {
+      //     slidesPerView: 2.5,
+      //     spaceBetween: 0,
+      //   },
+      //   2560: {
+      //     slidesPerView: 2.8,
+      //     spaceBetween: 0,
+      //   }
+      // }}
+      lazyPreloadPrevNext={4}
+      slidesPerView="auto"
+      freeMode
+      modules={[Autoplay]}
+      speed={6500}
+      autoplay={{
+        delay: 0,
+        disableOnInteraction: false
+      }}
       breakpoints={{
-        // when window width is >= 320px
-        320: {
-          slidesPerView: 1,
-        },
-        // when window width is >= 480px
-        480: {
-          slidesPerView: 2,
-        },
-        // when window width is >= 640px
-        640: {
-          slidesPerView: 3,
+        500: { slidesPerView: 2 },
+        1200: { slidesPerView: 2.7 },
+      }}
+      onSwiper={(swiper) => {
+        if (swiper) {
+          swiper.wrapperEl.style.transitionTimingFunction = "linear";
         }
       }}
-      lazyPreloadPrevNext={4}
     >
       {
         section2Images.map((image, idx) => (
-          <SwiperSlide key={idx}>
+          <SwiperSlide key={idx} className='w-full' >
             <Image
-              className='w-auto h-full object-cover'
+              className='w-full h-[90vh] object-cover'
               height={748}
               width={323}
               src={image}

@@ -22,10 +22,8 @@ export default function Home() {
         </div>
         <MoreButton />
       </section>
-      <section className="h-dvh">
-        <div className="h-full mx-auto">
-          <SlideShow />
-        </div>
+      <section className="h-[90dvh]">
+        <SlideShow />
       </section>
     </>
   );
