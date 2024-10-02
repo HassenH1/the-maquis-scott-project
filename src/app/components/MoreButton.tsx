@@ -11,7 +11,7 @@ function MoreButton() {
     });
   }
   return (
-    <div className="ml-4">
+    <div className="ml-4 pb-8">
       <button className="transition-all duration-300 ease-in-out no-underline text-xs lg:text-sm hover:line-through" onClick={onClick}>MORE</button>
     </div>
   )
