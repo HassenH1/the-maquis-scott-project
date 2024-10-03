@@ -5,11 +5,12 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { images } from "../../../lib/images";
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 function SwiperSlides() {
   return (
-    <motion.div
+    <>
+      {/* <motion.div
       initial={{
         opacity: 0,
         y: "20%"
@@ -21,7 +22,7 @@ function SwiperSlides() {
         x: "0%",
         y: "0%",
       }}
-    >
+    > */}
       <Swiper
         centeredSlides
         scrollbar={{ draggable: true }}
@@ -50,7 +51,8 @@ function SwiperSlides() {
           );
         })}
       </Swiper>
-    </motion.div>
+      {/* </motion.div> */}
+    </>
   );
 }
 
