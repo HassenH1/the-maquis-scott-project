@@ -33,6 +33,7 @@ function SlideShow() {
       //     spaceBetween: 0,
       //   }
       // }}
+      allowTouchMove={false}
       lazyPreloadPrevNext={4}
       slidesPerView="auto"
       freeMode
