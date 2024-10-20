@@ -18,7 +18,7 @@ function SwiperSlides() {
       speed={1500}
       loop
       modules={[Autoplay]}
-      className="relative h-full w-full animate__animated animate__fadeInUp animate__slow"
+      className="relative h-full w-full animate__animated animate__fadeInUp animate__slow animate__delay-2s"
       lazyPreloadPrevNext={2}
     >
       {images.map((image, idx) => {

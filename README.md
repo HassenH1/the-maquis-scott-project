@@ -5,7 +5,7 @@
     Maquis Scott Photography.
     <br />
     <br />
-    <a href="https://maquiss.com/">View Site</a>
+    <a href="https://maquisscott.com/">View Site</a>
     ·
     <a href="https://github.com/HassenH1/the-maquis-scott-project/issues">Report Bug</a>
   </p>

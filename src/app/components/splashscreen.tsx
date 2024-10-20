@@ -7,7 +7,7 @@ const myFont = localFont({
 
 function Splashscreen() {
   return (
-    <main className="w-full h-full absolute z-50 mix-blend-difference text-white animate__animated animate__fadeInDown animate__slow">
+    <main className="w-full h-full absolute z-50 mix-blend-difference text-white animate__animated animate__fadeInDown animate__slow animate__delay-2s">
       <div className="w-full md:w-3/4 h-full">
         <div className="flex justify-center h-full flex-col font-extrabold md:ml-10 ml-3">
           <p className="text-base ml-32">visual language by</p>
