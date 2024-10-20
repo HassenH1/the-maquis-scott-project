@@ -2,8 +2,9 @@ import SwiperSlides from "../components/SwiperSlides";
 import Splashscreen from "../components/splashscreen";
 import MoreButton from "../components/MoreButton";
 import SlideShow from "../components/slideShow"
+import 'animate.css';
 
-// https://cloudinary.com/tools/jpg-to-webp - for converting images to webp
+// https://cloudinary.com/tools/jpg-to-webp - use for converting images to webp
 export default function Home() {
   const year = new Date().getFullYear();
 
