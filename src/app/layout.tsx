@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "./components/footer";
 
-// @todo put globe in tab icon
 export const metadata: Metadata = {
   title: "visual language by...",
   description: "visual language by Maquis Scott",
