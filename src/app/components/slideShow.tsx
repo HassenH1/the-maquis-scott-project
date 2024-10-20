@@ -34,7 +34,7 @@ function SlideShow() {
       //   }
       // }}
       allowTouchMove={false}
-      lazyPreloadPrevNext={4}
+      lazyPreloadPrevNext={2}
       slidesPerView="auto"
       freeMode
       modules={[Autoplay]}
@@ -52,12 +52,14 @@ function SlideShow() {
           swiper.wrapperEl.style.transitionTimingFunction = "linear";
         }
       }}
+      className='h-full'
     >
       {
         section2Images.map((image, idx) => (
-          <SwiperSlide key={idx} className='w-full' >
+          <SwiperSlide key={idx}>
             <Image
-              className='w-full h-[90vh] object-cover'
+              className='w-full h-full object-cover swiper-lazy'
+              // className='w-full h-[90vh] object-cover swiper-lazy'
               height={748}
               width={323}
               src={image}
@@ -65,7 +67,8 @@ function SlideShow() {
               placeholder="blur"
               sizes="80.3vw"
               // sizes="33.3vw" // this is recommended
-              priority
+              // priority
+              loading='lazy'
             />
           </SwiperSlide>
         ))

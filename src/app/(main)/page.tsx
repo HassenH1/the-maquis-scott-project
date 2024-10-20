@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         <MoreButton />
       </section>
-      <section className="h-[90dvh]">
+      <section className="h-[100dvh]">
         <SlideShow />
       </section>
     </>
