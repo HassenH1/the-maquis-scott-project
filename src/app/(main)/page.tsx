@@ -10,8 +10,8 @@ export default function Home() {
   const year = new Date().getFullYear();
 
   return (
-    <>
-      <section className="h-dvh flex flex-col">
+    <div className="snap-mandatory snap-y h-screen overflow-y-scroll">
+      <section className="h-full flex flex-col snap-start">
         <div className="h-full flex flex-col justify-center items-center">
           <div className="md:h-[600px] md:w-[700px] h-[400px] w-[320px] relative">
             <OverlayText />
@@ -24,9 +24,9 @@ export default function Home() {
         </div>
         <MoreButton />
       </section>
-      <section className="h-[100dvh]">
+      <section className="h-full snap-start">
         <SlideShow />
       </section>
-    </>
+    </div>
   );
 }

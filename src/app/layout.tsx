@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import Footer from "./components/footer";
+
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "visual language by...",
@@ -15,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="mx-auto flex flex-col relative">
+        <div className="mx-auto flex flex-col">
           {children}
           <Footer />
         </div>
