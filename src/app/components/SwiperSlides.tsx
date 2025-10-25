@@ -3,35 +3,33 @@
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { images } from "../../../lib/images";
+
+import "swiper/css";
 
 function SwiperSlides() {
   return (
     <Swiper
+      spaceBetween={30}
       centeredSlides
       scrollbar={{ draggable: true }}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
+      autoplay={{ delay: 2500, disableOnInteraction: false }}
       speed={1500}
       loop
       modules={[Autoplay]}
-      className="relative h-full w-full animate__animated animate__fadeInUp animate__slow animate__delay-2s"
+      className="mySwiper w-full h-full animate__animated animate__fadeInUp animate__slow animate__delay-2s rounded"
       lazyPreloadPrevNext={2}
     >
       {images.map((image, idx) => {
         return (
           <SwiperSlide key={idx}>
             <Image
-              loading="lazy"
               height={624}
               width={700}
               src={image}
               alt="Maquis Scott photography"
-              className="w-full h-full object-cover swiper-lazy"
-            // sizes="(min-width: 800px) 700px, 320px"
+              className="w-full h-full object-cover"
+              sizes="(max-width: 768px) 25vw, (max-width: 1200px) 35vw, 20vw"
             />
           </SwiperSlide>
         );
