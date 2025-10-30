@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="snap-mandatory snap-y h-screen overflow-y-scroll">
       <section className="h-full flex flex-col snap-start">
-        <div className="h-full flex flex-col justify-center items-center border-2 border-blue-900">
+        <div className="h-full flex flex-col justify-center items-center">
           <div className="md:h-[600px] md:w-[700px] h-[400px] w-[320px] relative">
             <OverlayText />
             <SwiperSlides />
